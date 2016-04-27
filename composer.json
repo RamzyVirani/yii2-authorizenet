@@ -1,0 +1,23 @@
+{
+    "name": "ramzyvirani/yii2-authorizenet",
+    "description": "YII2 Authorizenet Gateway Extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2 authorize.net extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+          "name": "Ramzy Virani",
+          "email": "ramzy.rhv@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "authorizenet/authorizenet": "~1.8"
+    },
+	"autoload": {
+		"psr-4": {
+			"ramzyvirani\\authorizenet\\": ""
+		}
+	}
+	
+}
